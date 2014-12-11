@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvCodigoProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/TextView_Producto_Vacio" />
+
+    <Button
+        android:id="@+id/btnBuscarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buton_Buscar_Producto" />
+
+    <TextView
+        android:id="@+id/tvCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Cantidad" />
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/editText_Cantidad_Vacio"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Detalle" />
+
+    <EditText
+        android:id="@+id/etDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/editText_Detalle_Vacio"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnGuardarSQL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_Guardar" />
+
+    <Button
+        android:id="@+id/btnGuardarXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/migrar_SD" />
+
+    <Button
+        android:id="@+id/btnConsultarListado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Consultar_Listado" />
+
+</LinearLayout>
